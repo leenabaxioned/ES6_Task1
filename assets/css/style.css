@@ -132,13 +132,15 @@ li {
   color: #fff;
 }
 
-.searchbar-head  h1 { 
+.searchbar-head  h1,
+.user-text h2  { 
   padding-bottom: 5px;
   font-size: 17px; 
   font-weight: 600;
 }
 
-.searchbar-head  span { font-size: 12px; }
+.searchbar-head  span,
+.user-text span { font-size: 12px; }
 
 #search {
   width: 95%;
@@ -150,6 +152,7 @@ li {
 }
 
 #results {
+  padding: 20px 5px;
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -157,7 +160,19 @@ li {
   color: #000;
 }
 
+#results li { 
+  padding: 10px;
+  border-bottom: 1px solid #ccc; 
+}
 
+.user-data {
+  display: flex;
+  gap: 20px;
+  color: #000;
+}
+
+.user-data img { border-radius: 50%; }
+.user-text h2 { font-size: 15px; }
 /*=================================
   main styling ends here
 =================================*/
