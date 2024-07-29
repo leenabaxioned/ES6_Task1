@@ -152,7 +152,7 @@ li {
 }
 
 #results {
-  padding: 20px 5px;
+  padding: 20px 0;
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -162,7 +162,7 @@ li {
 
 #results li { 
   padding: 10px;
-  border-bottom: 1px solid #ccc; 
+  border-bottom: 1px solid #e1dada;
 }
 
 .user-data {
@@ -171,6 +171,7 @@ li {
   color: #000;
 }
 
+.user-data figure { flex-basis: 20%; }
 .user-data img { border-radius: 50%; }
 .user-text h2 { font-size: 15px; }
 /*=================================
