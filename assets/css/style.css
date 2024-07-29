@@ -99,7 +99,7 @@ li {
 /*for wrapper*/
 .wrapper {
   max-width: 1360px;
-  width: 86%; 
+  width: 25%; 
   margin: 0 auto;
 }
 /*=================================
@@ -113,6 +113,50 @@ li {
 /*=================================
   main styling starts here
 =================================*/
+.main {
+  width: 100%;
+  min-height: 100vh;
+  display: grid;
+}
+
+.main .wrapper {
+  place-self: center;
+  display: flex;
+  flex-direction: column;
+  border-radius: 4px;
+  background-color: #3946d2;
+}
+
+.searchbar-head {
+  padding: 20px 15px;
+  color: #fff;
+}
+
+.searchbar-head  h1 { 
+  padding-bottom: 5px;
+  font-size: 17px; 
+  font-weight: 600;
+}
+
+.searchbar-head  span { font-size: 12px; }
+
+#search {
+  width: 95%;
+  padding: 10px 15px;
+  margin: 15px 0 15px 10px;
+  border: none;
+  border-radius: 50px;
+  background-color: #29318c;
+}
+
+#results {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #fff;
+  color: #000;
+}
+
 
 /*=================================
   main styling ends here
