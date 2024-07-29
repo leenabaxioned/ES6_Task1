@@ -123,6 +123,7 @@ li {
   place-self: center;
   display: flex;
   flex-direction: column;
+  border: 1px solid #eee;
   border-radius: 4px;
   background-color: #3946d2;
 }
